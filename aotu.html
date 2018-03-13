@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>aotu</title>
+</head>
+
+<body>
+  <div class="demo">
+      <span class="ao"></span>
+      <span class="tu"></span>
+  </div>
+<style>
+
+.ao,
+.tu {
+  display: inline-block;
+  width: 0;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 35px;
+  color: green;
+}
+.ao:before,
+.tu:before {
+  outline: 2px solid #cd0000;
+  font-family: Consolas, Monaco, monospace;
+}
+.ao:before {
+  content: "love林love";
+}
+.tu {
+  direction: rtl;
+}
+.tu:before {
+  content: "高love张";
+}
+
+</style>
+</body>
+
+</html>
